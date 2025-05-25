@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 wikipedia.set_lang('ru')
 
 # id для работы с ботом
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('Токен бота')
 
 # Выводит приветственное сообщение
 @bot.message_handler(commands=['start'])
