@@ -8,7 +8,6 @@ wikipedia.set_lang('ru')
 
 # id для работы с ботом
 bot = telebot.TeleBot('')
-bot.polling(skip_pending=True)  # Пропустить накопившиеся апдейты
 
 # Выводит приветственное сообщение
 @bot.message_handler(commands=['start'])
